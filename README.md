@@ -13,7 +13,7 @@ Supports the variation of markdown syntax used on GitHub.
     The only style rules that do not originate from GitHub
     are those that apply user-configurable color schemes to the syntax-highlighted code blocks.
     Never-the-less, the default color scheme is called 'github',
-    and it sets the background color of code blocks to match the background color of non-highlighted "fenced code blocks". <sup><sub>(more about these under __Comments__)</sub></sup>
+    and it sets the background color of code blocks to match the background color of non-highlighted "fenced code blocks". <sub>(more about these under __Comments__)</sub>
 
 ## Comments
   * GFM supports [syntax highlighting](https://help.github.com/articles/github-flavored-markdown#syntax-highlighting)
@@ -23,12 +23,14 @@ Supports the variation of markdown syntax used on GitHub.
   * Rather than apply my own preferences in choosing which languages to support,
     I deferred judgement to the "official" [production build of highlight.js](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js);
     this is the distribution they host on a CDN and invite the public to use.
+
     > hljs.listLanguages()
+
 ```json
 ["coffeescript", "nginx", "json", "http", "javascript", "sql", "php", "makefile", "bash", "cpp", "perl", "ini", "apache", "java", "xml", "markdown", "cs", "ruby", "diff", "objectivec", "css", "python"]
 ```
 
-    ..sounds good to me.
+  * Sounds good to me..
   * All other languages will be treated the same way as ["fenced code blocks"](https://help.github.com/articles/github-flavored-markdown#fenced-code-blocks).
     This is the terminology for code blocks that do not specify a language,
     and consequently do not receive any syntax highlighting.
