@@ -1,0 +1,15 @@
+body {
+	background-color:	#F7F7F7;
+}
+div.markdown-body {
+	margin:				15px;
+	border-radius:		10px;
+	border:				1px solid #DDDDDD;
+	background-color:	#FFFFFF;
+	padding:			15px;
+}
+div.markdown-body div.hljs {
+	border-radius:		3px !important;
+	margin:				-6px -10px !important;
+	padding:			6px 10px !important;
+}
