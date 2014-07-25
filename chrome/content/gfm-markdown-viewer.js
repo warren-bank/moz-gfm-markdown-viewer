@@ -309,9 +309,8 @@ if (!GFM_MarkdownViewer) {
 					"smartLists":	true,
 					"smartypants":	false
 				});
-				html_dom_tree	= HTMLParser(
-					'<div class="markdown-body">' + html_string + '</div>'
-				);
+				html_string		= '<div class="markdown-body">' + html_string + '</div>';
+				html_dom_tree	= (HTMLParser(html_string)).firstChild;
 
 			})();
 
