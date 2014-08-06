@@ -6,14 +6,14 @@ Ported by Fabrício Tavares de Oliveira
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #fff;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .hljs-tag .hljs-title,
 .lisp .hljs-title,

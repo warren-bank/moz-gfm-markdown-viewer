@@ -4,14 +4,14 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #000080;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst {
   color: #0ff;
 }

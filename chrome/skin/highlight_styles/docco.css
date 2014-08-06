@@ -2,7 +2,7 @@
 Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;

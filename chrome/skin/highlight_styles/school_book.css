@@ -4,7 +4,7 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 15px 0.5em 0.5em 30px;
@@ -31,7 +31,7 @@ pre{
   font-weight:bold;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .hljs-tag .hljs-keyword {
   color: #3e5915;

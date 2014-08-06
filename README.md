@@ -68,6 +68,7 @@ Supports the variation of markdown syntax used on GitHub.
   > URLs to render in-browser after the add-on has been installed, which illustrate its functionality
     (..and provide the opportunity for a little shameless self-promotion)
 
+  * [README: CreateDOM JavaScript library](https://raw.githubusercontent.com/warren-bank/CreateDOM/master/README.md)
   * [README: Firefox add-on "JSON-DataView"](https://raw.githubusercontent.com/warren-bank/moz-json-data-view/master/README.md)
   * [README: Firefox add-on "CoffeeBrew"](https://raw.githubusercontent.com/warren-bank/moz-coffee-brew/master/README.md)
 

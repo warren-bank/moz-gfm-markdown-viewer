@@ -7,14 +7,14 @@ Date: 2009-01-03
 Music: Aphex Twin / Xtal
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background-color: #f4f4f4;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .lisp .hljs-title,
 .clojure .hljs-built_in {

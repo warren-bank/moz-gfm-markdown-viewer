@@ -5,7 +5,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 */
 
 /*background color*/
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -14,16 +14,16 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 
 /*selection color*/
 .hljs::selection,
-.hljs span::selection {
+.markdown-body pre code.hljs span::selection {
 	background: #373b41;
 }
 .hljs::-moz-selection,
-.hljs span::-moz-selection {
+.markdown-body pre code.hljs span::-moz-selection {
 	background: #373b41;
 }
 
 /*foreground color*/
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-setting .hljs-value,
 .hljs-expression .hljs-variable,
 .hljs-expression .hljs-begin-block,

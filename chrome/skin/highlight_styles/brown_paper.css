@@ -4,7 +4,7 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -26,7 +26,7 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
   font-weight:bold;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .hljs-tag .hljs-keyword {
   color: #363c69;

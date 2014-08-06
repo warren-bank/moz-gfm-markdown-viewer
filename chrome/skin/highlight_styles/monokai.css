@@ -2,7 +2,7 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -24,11 +24,11 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #f92672;
 }
 
-.hljs {
+.markdown-body pre code.hljs {
   color: #ddd;
 }
 
-.hljs .hljs-constant,
+.markdown-body pre code.hljs .hljs-constant,
 .asciidoc .hljs-code {
 	color: #66d9ef;
 }

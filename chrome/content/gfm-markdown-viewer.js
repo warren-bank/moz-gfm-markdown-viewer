@@ -89,7 +89,6 @@ if (!GFM_MarkdownViewer) {
 						// and the remainder won't be filtered through the highlighter.
 						// ------------------------------------------------
 						var hljs_lang, hljs_result;
-						var add_hljs_div_wrapper = true;
 
 						if (!lang){return code;}
 
@@ -268,14 +267,6 @@ if (!GFM_MarkdownViewer) {
 						// the language is supported. pass it through the highlighter.
 						try {
 							hljs_result = hljs.highlight(hljs_lang, code, false);
-
-							// the result will be wrapped in: <pre><code>
-							// the github css sets the background-color for the <pre>, so even if I could add a class to it.. it wouldn't take priority.
-							// what I can do, is to wrap the result in: <div class="hljs">
-							// so the final result will be: <pre><code><div class="hljs">hljs_result</div></code></pre>
-							if (add_hljs_div_wrapper){
-								hljs_result.value = '<div class="hljs">' + hljs_result.value + '</div>';
-							}
 						}
 						catch(e){return code;}
 
@@ -300,6 +291,7 @@ if (!GFM_MarkdownViewer) {
 
 				gfmd_string		= body.textContent;
 				html_string		= marked(gfmd_string, {
+					"langPrefix":	"hljs lang-",
 					"highlight":	((highlight.enabled)? highlight_callback : false),
 					"gfm":			true,
 					"tables":		true,

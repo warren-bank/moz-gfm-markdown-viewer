@@ -1,7 +1,7 @@
 /*
   Five-color theme from a single blue hue.
 */
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;

@@ -4,7 +4,7 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -23,7 +23,7 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
   color: white;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst {
   color: #ddd;
 }

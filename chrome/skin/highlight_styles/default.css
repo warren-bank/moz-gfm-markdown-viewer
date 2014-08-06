@@ -4,14 +4,14 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #f0f0f0;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .hljs-tag .hljs-title,
 .lisp .hljs-title,

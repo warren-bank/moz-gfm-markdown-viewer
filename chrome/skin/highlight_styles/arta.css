@@ -3,7 +3,7 @@ Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -132,7 +132,7 @@ Author: pumbur <pumbur@pumbur.net>
   opacity: 0.6;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-subst,
 .diff .hljs-chunk,
 .css .hljs-value,

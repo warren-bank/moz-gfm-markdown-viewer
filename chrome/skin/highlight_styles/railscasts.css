@@ -4,7 +4,7 @@ Railscasts-like style (c) Visoft, Inc. (Damien White)
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;

@@ -8,7 +8,7 @@ div.markdown-body {
 	background-color:	#FFFFFF;
 	padding:			15px;
 }
-div.markdown-body div.hljs {
+div.markdown-body code.hljs {
 	border-radius:		3px !important;
 	margin:				-6px -10px !important;
 	padding:			6px 10px !important;

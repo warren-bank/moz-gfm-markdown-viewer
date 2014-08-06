@@ -4,14 +4,14 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 */
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #23241f;
 }
 
-.hljs,
+.markdown-body pre code.hljs,
 .hljs-tag,
 .css .hljs-rules,
 .css .hljs-value,

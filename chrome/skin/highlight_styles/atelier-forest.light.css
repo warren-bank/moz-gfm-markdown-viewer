@@ -75,7 +75,7 @@
   color: #6666ea;
 }
 
-.hljs {
+.markdown-body pre code.hljs {
   display: block;
   overflow-x: auto;
   background: #f1efee;
