@@ -93,14 +93,17 @@ locale gfm-markdown-viewer zh-CN chrome/locale/zh-CN/
 locale gfm-markdown-viewer zh-TW chrome/locale/zh-TW/
 locale gfm-markdown-viewer zu chrome/locale/zu/
 
-component {d50fda51-8a73-4c75-b265-97e02ceef352} components/txt_daringfireball-to-html-stream.js
-contract @mozilla.org/streamconv;1?from=text/vnd.daringfireball.markdown&to=*/* {d50fda51-8a73-4c75-b265-97e02ceef352}
-
-component {37edc36a-d524-4186-a0b4-b2297775bfcd} components/txt_xmd-to-html-stream.js
-contract @mozilla.org/streamconv;1?from=text/x-markdown&to=*/* {37edc36a-d524-4186-a0b4-b2297775bfcd}
+component {bb2d3abf-80a3-4355-832c-fa9249a2db24} components/txt_plain-to-html-stream.js
+contract @mozilla.org/streamconv;1?from=text/plain&to=*/* {bb2d3abf-80a3-4355-832c-fa9249a2db24}
 
 component {fa8a0e75-a15e-466d-9d4f-c0a84ac070a2} components/txt_md-to-html-stream.js
 contract @mozilla.org/streamconv;1?from=text/markdown&to=*/* {fa8a0e75-a15e-466d-9d4f-c0a84ac070a2}
 
-component {bb2d3abf-80a3-4355-832c-fa9249a2db24} components/txt_plain-to-html-stream.js
-contract @mozilla.org/streamconv;1?from=text/plain&to=*/* {bb2d3abf-80a3-4355-832c-fa9249a2db24}
+component {37edc36a-d524-4186-a0b4-b2297775bfcd} components/txt_xmd-to-html-stream.js
+contract @mozilla.org/streamconv;1?from=text/x-markdown&to=*/* {37edc36a-d524-4186-a0b4-b2297775bfcd}
+
+component {d50fda51-8a73-4c75-b265-97e02ceef352} components/txt_daringfireball-to-html-stream.js
+contract @mozilla.org/streamconv;1?from=text/vnd.daringfireball.markdown&to=*/* {d50fda51-8a73-4c75-b265-97e02ceef352}
+
+component {06629826-4752-474e-8b37-eb4007ea0608} components/app_xgenesisrom-to-html-stream.js
+contract @mozilla.org/streamconv;1?from=application/x-genesis-rom&to=*/* {06629826-4752-474e-8b37-eb4007ea0608}

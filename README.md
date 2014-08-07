@@ -39,12 +39,13 @@ Supports the variation of markdown syntax used on GitHub.
 
 ## Detection methodology
 
-  * the add-on modifies all server responses that satisfy all of the following criteria:
+  * This add-on will modify the display of all server responses (or local files) that satisfy all of the following criteria:
     * the HTTP header 'content-type' is either:
       * 'text/plain'
       * 'text/markdown'
       * 'text/x-markdown'
       * 'text/vnd.daringfireball.markdown'
+      * 'application/x-genesis-rom'
     * the location protocol is not 'view-source:'
     * the location pathname ends with either:
 

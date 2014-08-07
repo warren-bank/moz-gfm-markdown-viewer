@@ -30,12 +30,13 @@ if (!GFM_MarkdownViewer) {
 			if (document.location.protocol.toLowerCase() === "view-source:"){return;}
 
 			switch( document.contentType.toLowerCase() ){
-				case 'text/vnd.daringfireball.markdown':
-				case 'text/x-markdown':
 				case 'text/markdown':
+				case 'text/x-markdown':
+				case 'text/vnd.daringfireball.markdown':
 					is_gfmd			= true;
 					break;
 				case 'text/plain':
+				case 'application/x-genesis-rom':
 					is_gfmd			= 0;
 					break;
 			}
